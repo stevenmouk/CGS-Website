@@ -66,7 +66,7 @@ export default function Home(props) {
         <title>CUNY Global Student</title>
         <link rel="stylesheet" href="dist/styles.css" />
 
-        <script src="dist/script.js"></script>
+
       </Head>
 
       <div>
