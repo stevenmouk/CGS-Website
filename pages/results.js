@@ -8,7 +8,7 @@ import StripeComp from "../components/StripeComp";
 
 import Router from "next/router";
 
-export default function results(props) {
+export default function Results(props) {
   const [opened, setOpened] = useState(false);
   const [searched, setSearched] = useState([]);
   useEffect(() => {
