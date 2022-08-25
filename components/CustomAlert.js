@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CustomAlert from "../components/CustomAlert";
 
-export default function test() {
+export default function Test() {
   const [alert, setAlert] = useState(false);
 
   function handleClose() {
