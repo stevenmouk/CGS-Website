@@ -65,8 +65,6 @@ export default function Home(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CUNY Global Student</title>
         <link rel="stylesheet" href="dist/styles.css" />
-
-
       </Head>
 
       <div>
@@ -425,7 +423,7 @@ export default function Home(props) {
           <div>
             <h2 className="secondaryTitle bg-highlight3 p-10 mb-0 bg-center bg-100%">FAQ</h2>
           </div>
-          <div toggleelement="" className="w-full py-4 ">
+          <div toggleelement="" className="w-full py-4 " onClick={handleFirstClick}>
             <div className="flex justify-between items-center ">
               <div question="" className="font-montserrat font-medium mr-auto ">
                 Why did I create this Website?
@@ -438,7 +436,6 @@ export default function Home(props) {
                     ? "transform transition-transform cursor-pointer ease-in duration-200"
                     : "transform transition-transform cursor-pointer ease-in duration-200 rotate-90"
                 }
-                onClick={handleFirstClick}
               />
             </div>
             <div
@@ -455,7 +452,7 @@ export default function Home(props) {
             </div>
           </div>
           <hr className="w-full bg-white" />
-          <div toggleelement="" className="w-full py-4">
+          <div toggleelement="" className="w-full py-4" onClick={handleSecondClick}>
             <div className="flex justify-between items-center">
               <div question="" className="font-montserrat font-medium mr-auto">
                 How do you access the books.
@@ -468,7 +465,6 @@ export default function Home(props) {
                     ? "transform transition-transform cursor-pointer ease-in duration-200"
                     : "transform transition-transform cursor-pointer ease-in duration-200 rotate-90"
                 }
-                onClick={handleSecondClick}
               />
             </div>
             <div
@@ -484,7 +480,7 @@ export default function Home(props) {
             </div>
           </div>
           <hr className="w-full bg-white" />
-          <div toggleelement="" className="w-full py-4">
+          <div toggleelement="" className="w-full py-4" onClick={handleThirdClick}>
             <div className="flex justify-between items-center">
               <div question="" className="font-montserrat font-medium mr-auto">
                 What is you mission
@@ -497,7 +493,6 @@ export default function Home(props) {
                     ? "transform transition-transform cursor-pointer ease-in duration-200"
                     : "transform transition-transform cursor-pointer ease-in duration-200 rotate-90"
                 }
-                onClick={handleThirdClick}
               />
             </div>
             <div
